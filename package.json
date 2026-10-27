@@ -1,0 +1,13 @@
+{
+  "name": "all-tidied-up",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website for All Tidied Up Guernsey – cleaning, decluttering and organising",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --minify",
+    "watch": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
